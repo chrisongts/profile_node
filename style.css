@@ -1,0 +1,51 @@
+body {
+  background-image: url("./assets/swirls-web.jpg");
+  background-size: cover;
+}
+
+#name_top {
+  margin-top: 25%;
+  padding-bottom: 20%;
+}
+
+#profile_pic {
+   max-width: 180px;
+   border-radius: 30px;
+   margin-top: 5%;
+   margin-bottom: 5%;
+     }
+
+article {
+       max-width: 600px;
+       padding: 20px;
+       margin: 0 auto;
+       text-align: justify;
+         }
+
+h1{
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+  font-family: CLucida, sans-serife;
+}
+
+a {
+  font-size: 15px;
+}
+
+@media (max-width: 500px) {
+     header {background-position: center;
+             background-repeat: no-repeat;
+           }
+     body {background: white;}
+     li {
+       display: block;
+       padding: 5px;
+       }
+                         }
