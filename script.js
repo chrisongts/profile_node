@@ -11,7 +11,7 @@ $(function (){
     type: 'GET', // The HTTP Method, can be GET POST PUT DELETE etc
     // data: {sentence: $("#yoda_input").val()},
     // Origin: "*",
-    datatype: 'json',
+    datatype: 'jsonp',
   }).always(alwaysFunction)
     .success(successFunction)
     .fail(failFunction);
