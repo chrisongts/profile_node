@@ -2,7 +2,7 @@ $(function (){
 
   $.ajax({
     // url: 'http://localhost:7000/users',
-    url: 'https://warm-river-72899.herokuapp.com/users'
+    url: 'https://warm-river-72899.herokuapp.com/users',
     // headers: { 'x-my-custom-header': 'some' },
     // xhrFields: { withCredentials: true},
     // header: ( "Access-Control-Allow-Origin: http://localhost:7000/users" ),
